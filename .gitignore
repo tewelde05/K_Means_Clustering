@@ -1,0 +1,63 @@
+# ============================================
+# Lab 3 - Python / Jupyter / Machine Learning
+# ============================================
+
+# Local datasets (including creditcard.csv and insurance.csv)
+# Keep large/raw datasets out of the repository.
+data/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+data/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter notebooks: temporary checkpoints
+.ipynb_checkpoints/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage / logs
+.coverage
+.coverage.*
+htmlcov/
+*.log
+
+# Environment variables, credentials, and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
