@@ -1,6 +1,8 @@
 Police-Reported Cybercrime in Canada — K-Means Clustering
 PROG8431 — Data Analysis, Mathematics, Modeling and Algorithms
 Problem Analysis Workshop B | Group 2
+
+GitHub Repository: https://github.com/tewelde05/K_Means_Clustering.git
 Team Members
 Name	Student ID
 Senay Teweldebrhan	9120588
@@ -30,15 +32,32 @@ Cluster	Description	CMAs	Mean 2025 rate*	Mean change (2023–2025)
 2	Strong growth	8	272.99	+38.68%
 
 
-Rate per 100,000 people. Figures are unweighted averages across CMAs in each cluster.
+* Rate per 100,000 people. Figures are unweighted averages across CMAs in each cluster.
 
 Main insight: CMAs with the highest current cybercrime rates are not necessarily those with the fastest growth. Clustering reveals different patterns, but does not establish causes or predict future rates.
 How to Run the Notebook
-1. Install Python 3 and download or clone this repository.
-2. Install the required packages:
+1. Install Python 3 and clone the repository:
+   git clone https://github.com/tewelde05/K_Means_Clustering.git
+   cd K_Means_Clustering
+2. Create a virtual environment in the project folder:
+   # Windows
+   python -m venv .venv
+   # macOS / Linux
+   python3 -m venv .venv
+3. Activate the environment:
+   # Windows (PowerShell)
+   .\.venv\Scripts\Activate.ps1
+   # Windows (Command Prompt)
+   .venv\Scripts\activate
+   # macOS / Linux
+   source .venv/bin/activate
+4. Install dependencies:
    python -m pip install -r requirements.txt
-3. Download the CSV from the Statistics Canada table and save it as data/35100002.csv inside the project folder. Create the data folder if needed. The repository's .gitignore excludes this folder.
-4. Open PROG8431_Workshop_B_KMeans_Clustering.ipynb in Jupyter and select Restart & Run All.
+5. Download the dataset from Statistics Canada Table 35-10-0002-01 and save it as data/35100002.csv (create data/ if needed).
+6. Run the notebook:
+   jupyter notebook
+   Open PROG8431_Workshop_B_KMeans_Clustering.ipynb and choose Restart & Run All.
+When finished, run deactivate. Keep .venv/ and data/ in .gitignore so they are not uploaded to GitHub.
 Workshop Submission and Presentation
 The notebook contains the data preparation, feature selection, standardization, elbow chart, scatter plots, cluster summaries, and interpretations required by the workshop. We use the same submitted notebook for the seven-minute team presentation.
 

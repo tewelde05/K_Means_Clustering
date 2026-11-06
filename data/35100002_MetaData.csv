@@ -1,0 +1,115 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Police-reported cybercrime, number of incidents and rate per 100,000 population, Canada, provinces, territories, Census Metropolitan Areas and Canadian Forces Military Police","35100002","252-0096","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510000201",1,"CURRENT - a cube available to the public and that is current","Annual","2014-01-01","2025-01-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",2;11;15,""
+"2","Statistics",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Total police-reported cybercrime","","1","","",3;12;20,
+"1","Total Non-Census metropolitan area","","2","1","",,
+"1","Total Census metropolitan area","","3","1","",4;15,
+"1","Newfoundland and Labrador [10]","[10]","4","1","",,
+"1","St. John's, Newfoundland and Labrador [10001]","[10001]","5","4","",,
+"1","Prince Edward Island [11]","[11]","6","1","",,
+"1","Nova Scotia [12]","[12]","7","1","",,
+"1","Halifax, Nova Scotia [12205]","[12205]","8","7","",,
+"1","New Brunswick [13]","[13]","9","1","",,
+"1","Moncton, New Brunswick [13305]","[13305]","10","9","",,
+"1","Saint John, New Brunswick [13310]","[13310]","11","9","",14,
+"1","Fredericton, New Brunswick [13320]","[13320]","53","9","",,
+"1","Quebec [24]","[24]","12","1","",,
+"1","Saguenay, Quebec [24408]","[24408]","16","12","",,
+"1","Québec, Quebec [24421]","[24421]","15","12","",,
+"1","Sherbrooke, Quebec [24433]","[24433]","17","12","",,
+"1","Trois-Rivières, Quebec [24442]","[24442]","18","12","",,
+"1","Drummondville, Quebec [24447]","[24447]","54","12","",,
+"1","Montréal, Quebec [24462]","[24462]","14","12","",,
+"1","Ottawa-Gatineau, Quebec part [24505]","[24505]","13","12","",,
+"1","Ontario [35]","[35]","19","1","",,
+"1","Ottawa-Gatineau, Ontario part [35505]","[35505]","28","19","",,
+"1","Kingston, Ontario [35521]","[35521]","25","19","",,
+"1","Belleville-Quinte West, Ontario [35522]","[35522]","50","19","",21,
+"1","Peterborough, Ontario [35529]","[35529]","29","19","",,
+"1","Toronto, Ontario [35535]","[35535]","32","19","",8;13,
+"1","Hamilton, Ontario [35537]","[35537]","24","19","",6,
+"1","St. Catharines-Niagara, Ontario [35539]","[35539]","30","19","",,
+"1","Kitchener-Cambridge-Waterloo, Ontario [35541]","[35541]","26","19","",,
+"1","Brantford, Ontario [35543]","[35543]","21","19","",,
+"1","Guelph, Ontario [35550]","[35550]","23","19","",,
+"1","London, Ontario [35555]","[35555]","27","19","",22,
+"1","Windsor, Ontario [35559]","[35559]","33","19","",,
+"1","Barrie, Ontario [35568]","[35568]","20","19","",,
+"1","Greater Sudbury, Ontario [35580]","[35580]","22","19","",,
+"1","Thunder Bay, Ontario [35595]","[35595]","31","19","",,
+"1","Manitoba [46]","[46]","34","1","",,
+"1","Winnipeg, Manitoba [46602]","[46602]","35","34","",,
+"1","Saskatchewan [47]","[47]","36","1","",,
+"1","Regina, Saskatchewan [47705]","[47705]","37","36","",,
+"1","Saskatoon, Saskatchewan [47725]","[47725]","38","36","",,
+"1","Alberta [48]","[48]","39","1","",,
+"1","Lethbridge, Alberta [48810]","[48810]","51","39","",,
+"1","Calgary, Alberta [48825]","[48825]","40","39","",10,
+"1","Red Deer, Alberta [48830]","[48830]","55","39","",,
+"1","Edmonton, Alberta [48835]","[48835]","41","39","",,
+"1","British Columbia [59]","[59]","42","1","",,
+"1","Kelowna, British Columbia [59915]","[59915]","44","42","",,
+"1","Kamloops, British Columbia [59925]","[59925]","56","42","",,
+"1","Chilliwack, British Columbia [59930]","[59930]","57","42","",,
+"1","Abbotsford-Mission, British Columbia [59932]","[59932]","43","42","",,
+"1","Vancouver, British Columbia [59933]","[59933]","45","42","",,
+"1","Victoria, British Columbia [59935]","[59935]","46","42","",9,
+"1","Nanaimo, British Columbia [59938]","[59938]","58","42","",,
+"1","Yukon [60]","[60]","47","1","",,
+"1","Northwest Territories [61]","[61]","48","1","",,
+"1","Nunavut [62]","[62]","49","1","",,
+"1","Canadian Forces Military Police","","52","1","",16;17,
+"2","Number of cybercrime incidents","","1","","",,
+"2","Rate per 100,000 population","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3302","Uniform Crime Reporting Survey"
+
+"Subject Code","Subject Name"
+"35","Crime and justice"
+
+"Note ID",Note
+1,"A criminal incident may be comprised of multiple violations of the law. For the analysis of cyber-related violations, one distinct violation within the incident was identified as the ‘cybercrime violation.' The cybercrime violation represents the specific criminal violation within an incident in which a computer or the Internet was the target of the crime, or the instrument used to commit the crime. For the majority of incidents, the cybercrime violation and the most serious violation were the same."
+2,"A census metropolitan area (CMA) consists of one or more neighbouring municipalities situated around a major urban core. A CMA must have a total population of at least 100,000, of which 50,000 or more live in the urban core. To be included in the CMA, other adjacent municipalities must have a high degree of integration with the central urban core, as measured by commuting flows derived from census data. A CMA typically comprises more than one police service. CMA populations have been adjusted to follow policing boundaries. The Oshawa CMA is excluded from this analysis owing to the incongruity between the police service jurisdictional boundaries and the CMA boundaries.  Lethbridge, Alberta and Belleville, Ontario became new CMAs as of the 2016 Census. Fredericton, New Brunswick; Drummondville, Quebec; Red Deer, Alberta; Kamloops, British Columbia; Chilliwack, British Columbia and Nanaimo, British Columbia became new CMAs as of the 2021 Census. Coverage for each CMA is virtually 100%, except in Toronto (approx. 90%), and Hamilton (approx. 76%)."
+3,"Excluded from this table are the small number of police services that do not report to the Uniform Crime Reporting Survey (UCR) 2."
+4,"Includes Halton Regional Police Service and Durham Regional Police Service. May include a small number of offences that occurred outside of a Census metropolitan area (CMA) as 3% of the population policed by Durham Regional Police Service falls outside the boundaries of a CMA."
+6,"Excludes the portion of Halton Regional Police Service that polices the Hamilton Census metropolitan area (CMA)."
+8,"Excludes the portions of Halton Regional Police Service and Durham Regional Police Service that police the Toronto Census metropolitan area (CMA)."
+9,"The increase in cybercrime incidents may be a result of the increase in incidents of child pornography between 2014 and 2015, which can be in part attributed to a proactive project initiated by the British Columbia Integrated Child Exploitation Unit which recorded Internet Protocol (IP) addresses that were in possession of, and possibly sharing child pornography. As this initiative focused on Victoria in 2015, notable increases in these offences were reported by this jurisdiction."
+10,"Calgary Police Service cybercrime data for 2017 and onward are suspected cybercrimes only and should be interpreted with caution."
+11,"Data coverage for police-reported data varies slightly each year. Cybercrime data for 2025 covers 99.6% of the Canadian population. Coverage for each province/territory is virtually 100% with the exception of New Brunswick (90.9%) due to the exclusion of Saint John Police Force. These percentages are based on police-reported data and populations for the 2025 data cycle."
+12,"Hate crime, organized crime and cybercrime data from the Uniform Crime Reporting (UCR) Survey are now revised back one year with each annual release. This approach was introduced for the 2019 data release and was applied to the 2018 revised data."
+13,"Annual counts of cybercrime offences for Toronto Police Service increase when revised data are published one year after the initial release. This is due to lengthy investigations required to confirm whether or not the incident is in fact a cybercrime. Therefore, changes between the most recent year of data and the previous year should be interpreted with caution."
+14,"Saint John Police Force cybercrime data are unverified for the years they are included (from 2020 to 2022) and therefore represent incidents that are suspected cybercrimes only and should be interpreted with caution."
+15,"It is important to note that while official police-reported data on crime from the Uniform Crime Reporting (UCR) Survey use Statistics Canada's standard Census Metropolitan Area (CMA) names, the boundaries for the policing-based CMAs do not always fully align with the standard CMA geographic units used for disseminating information about the Census of Population."
+16,"Under the authority of the Canadian Forces Provost Marshal (CFPM), the Canadian Forces Military Police Group (CF MP Gp) provides professional policing, security, and detention services to the Canadian Armed Forces (CAF) and the Department of National Defence (DND) globally, across the full spectrum of military operations. Uniform Crime Reporting (UCR) Survey data for the CF MP Gp represent only crimes committed in Canada, on or in relation to DND property or assets, investigated by the military police. Within Canada, in many instances, the military police share concurrent jurisdiction with civilian police. In the enforcement of Canadian military and criminal laws, military police are peace officers and lawfully exercise jurisdiction over members of the CAF and over persons on defence establishments including civilians."
+17,"Under the authority of the Canadian Forces Provost Marshal (CFPM), the Canadian Forces Military Police Group (CF MP Gp) is now reporting incidents to the Uniform Crime Reporting (UCR) Survey. They have provided incidents going back to January 2020 and are not included in 2025. Data from the Office of the CFPM are aggregated at the national level to account for small counts and to protect confidentiality. Therefore, provincial and territorial totals will not equal Canada-level totals. Crime Severity Index data and rates are not available."
+20,"Prior to 2020, the number of cybercrimes is an undercount as some police services were unable to report the cybercrime indicator for all years. The data exclude the Quebec City Police in 2014 and 2015, the municipal police service of Calgary from 2014 to 2016, the Ontario Provincial Police (OPP) from 2014 to 2017, both the Saint John Police Force and the Canadian Forces Military Police from 2014 to 2019 and Dryden, a detachment of the OPP in 2022. For 2023, the data exclude Saint John Police Force."
+21,"The census metropolitan area (CMA) of Belleville-Quinte West was formerly known as Belleville."
+22,"The marked increase in 2023 for London is mostly attributed to the start of online reporting for fraud violations by London Police Service (LPS), which resulted in an influx of reports being generated. In addition, efforts have been made by LPS to improve their reporting of financial crime and cyber-enabled crimes that have a computer as the target of the offence. Comparisons to previous years should be made with caution."
+
+"Correction ID","Correction Date","Correction Note"
+"1094","2018-12-05","<p>On December 5, 2018, counts of total police-reported cybercrimes for the CMA of Calgary, Alberta, total Census metropolitan areas, and the Canada total were corrected for 2017.<br></p>",
+
