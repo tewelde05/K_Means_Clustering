@@ -4,8 +4,6 @@
 
 # Local datasets (including creditcard.csv and insurance.csv)
 # Keep large/raw datasets out of the repository.
-data/
-
 # Python caches and compiled files
 __pycache__/
 *.py[cod]
